@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //Botonos donde pusimos el id en el Design del telefono
         final Button btnSumar = findViewById(R.id.botonSumar);
         final TextView tvResultado = findViewById(R.id.txt_resultado);
         Button botonReinicio = findViewById(R.id.botonReinicio);
