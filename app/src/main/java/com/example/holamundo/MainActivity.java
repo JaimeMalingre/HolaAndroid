@@ -13,20 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnMostrarMensaje = findViewById(R.id.buttonHello);
-        final TextView tvHolaMundo = findViewById(R.id.helloWorld);
         final Button btnSumar = findViewById(R.id.botonSumar);
         final TextView tvResultado = findViewById(R.id.txt_resultado);
         Button botonReinicio = findViewById(R.id.botonReinicio);
 
-        btnMostrarMensaje.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Actualizar el texto del TextView cuando se hace clic en el botón
-                tvHolaMundo.setText("¡Hola Mundo!");
 
-            }
-        });
         btnSumar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
